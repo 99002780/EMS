@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood</title>
+    <style>
+        form{
+        text-align: center;
+            }
+        h2{
+            text-align: center;
+        }
+
+    </style>
+    <script>
+
+
+    </script>
+
+</head>
+<body>
+    <h2>Blood Donor Registration</h2>
+      <form method="GET" action="http://localhost:1234/users" >
+          <p>
+            <input type="text"  placeholder="Enter Your Name:"  name="name">
+            <input type="number" placeholder="Enter  Your Age(greater than 18):" name="age">
+              <!-- <select id="gender" >
+                  <option value="none">Gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="others">Others</option>
+              </select> -->
+              <input type="text" placeholder="Enter your Gender:" name="gender">
+              <input type="text" placeholder="Enter your Location:" name="city">
+              <input type="number" placeholder="Enter Your PhoneNumber:" name="phone">
+              <input type="text" placeholder="Blood Group:" name="bloodgroup">
+          <input type="submit">
+        </p>
+      </form>
+</body>
+</html>
